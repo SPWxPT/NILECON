@@ -1,0 +1,215 @@
+.Navbar {
+    margin-top: 20px;
+    height: 100px;
+    background-color: #3567e3;
+    display: flex;
+    justify-content: left;
+}
+
+.Infobar {
+    margin-top: 30px;
+    height: 80px;
+    background-color: rgb(230, 136, 65);
+    display: flex;
+    /* ใช้ Flexbox */
+    align-items: center;
+    /* จัดตำแหน่งแนวตั้งให้ตรงกลาง */
+    justify-content: left;
+    /* จัดตำแหน่งแนวนอนให้ตรงกลาง */
+}
+
+.Infobar p {
+    font-size: xx-large;
+    color: white;
+    margin: 45px;
+    /* เอา margin ออกเพื่อให้ข้อความชิดซ้าย */
+}
+
+.Info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 50px 50px 50px;
+    font-size: x-large;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* จัดกลางแนวตั้ง */
+    text-align: center;
+    /* จัดข้อความให้อยู่ตรงกลาง */
+}
+
+.item-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    /* background-color: #3567e3; */
+    margin-top: 30px;
+}
+
+.item-image {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.item-text {
+    max-width: 300px;
+    max-height: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+}
+
+.textaera {
+    margin-top: 20px;
+    width: 500px;
+}
+
+.textaeraMain {
+    margin-top: 20px;
+    margin-left: 50px;
+    /* margin-right: 50px; */
+    width: 95%;
+}
+
+.textaeraSub {
+    margin-top: 20px;
+    margin-left: 50px;
+    /* margin-right: 50px; */
+    width: 95%;
+}
+
+.icon {
+    display: flex;
+    gap: 50px;
+    /* เปลี่ยนค่าเป็นระยะห่างที่ต้องการ */
+}
+
+.icon label {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    /* เปลี่ยนค่าเป็นระยะห่างที่ต้องการ */
+}
+
+.infoCreate {
+    margin-top: 30px;
+}
+
+.infoCreateCover {
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+}
+
+.infoCreatePicMain {
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+}
+
+.select {
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: start;
+    width: 20%;
+}
+
+.table {
+    margin: 20px 50px 50px 50px;
+}
+
+.createOne {
+    background-color: #f4f6f7;
+    border: 1px solid black;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.createTwo {
+    background-color: #f4f6f7;
+    border: 1px solid black;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.createPic {
+    background-color: #f4f6f7;
+    border: 1px solid black;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.picsub {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.listInfoLink {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 10px;
+    gap: 20px; /* Add space between items */
+}
+
+.head {
+    font-size: x-large;
+    margin: 20px;
+}
+
+.picMain {
+    max-width: 70%;
+    max-height: 500px;
+}
+
+/* .picsub {
+    max-width: 400px;
+    max-height: 400px;
+} */
+
+.picsubsize{
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.picsub-item{
+    margin: 30px;
+}
+
+.infodetail {
+    margin: 20px;
+    font-size: medium;
+}
+
+.headlink {
+    margin-top: 100px;
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: left;
+    font-size: large;
+}
+
+.link {
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;    /* Center items horizontally */
+    max-width: 300px;       /* Set maximum width if needed */
+    margin: 20px;
+}
+
+.linkheadline {
+    max-width: 300px;
+    max-height: 300px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
